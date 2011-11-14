@@ -5,7 +5,10 @@
 	<key>beforeRunningCommand</key>
 	<string>nop</string>
 	<key>command</key>
-	<string>require_cmd dot
+	<string>#!/usr/bin/env bash
+[[ -f "${TM_SUPPORT_PATH}/lib/bash_init.sh" ]] &amp;&amp; . "${TM_SUPPORT_PATH}/lib/bash_init.sh"
+
+require_cmd dot
 
 . "${TM_SUPPORT_PATH}/lib/html.sh"
 . "${TM_SUPPORT_PATH}/lib/webpreview.sh"
@@ -17,7 +20,7 @@ DST="${TMPDIR:-/tmp}/dot_${SRC%.*}.pdf"
 ERR="${TMPDIR:-/tmp}/dot_errors"
 
 # Compile.
-if dot -Tpdf -o "$DST" /dev/stdin &amp;&gt;"$ERR"; then
+if "${TM_DOT:-dot}" -Tpdf -o "$DST" /dev/stdin &amp;&gt;"$ERR"; then
   echo "&lt;meta http-equiv='refresh' content='0; tm-file://$DST'&gt;"
 else
   pre &lt;"$ERR"
@@ -27,15 +30,37 @@ html_footer
 </string>
 	<key>input</key>
 	<string>document</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>@r</string>
 	<key>name</key>
 	<string>Generate pdf using dot cmd</string>
-	<key>output</key>
-	<string>showAsHTML</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>html</string>
+	<key>outputLocation</key>
+	<string>newWindow</string>
+	<key>requiredCommands</key>
+	<array>
+		<dict>
+			<key>command</key>
+			<string>dot</string>
+			<key>locations</key>
+			<array>
+				<string>/opt/local/bin/dot</string>
+				<string>/usr/local/bin/dot</string>
+			</array>
+			<key>variable</key>
+			<string>TM_DOT</string>
+		</dict>
+	</array>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>uuid</key>
 	<string>726F7253-079F-49E1-A9DF-739BBFFB321D</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
