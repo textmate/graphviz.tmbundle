@@ -7,7 +7,7 @@
 	<key>contactName</key>
 	<string>Torsten Becker</string>
 	<key>description</key>
-	<string>Support for the open source graph visualization softwarea called &lt;a href="http://www.graphviz.org/"&gt;Graphviz&lt;/a&gt;.</string>
+	<string>Support for the open source graph layout system &lt;a href="http://www.graphviz.org/"&gt;Graphviz&lt;/a&gt;.</string>
 	<key>name</key>
 	<string>Graphviz</string>
 	<key>ordering</key>

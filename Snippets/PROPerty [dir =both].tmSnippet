@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[dir=${1:back|both}]</string>
+	<string>[dir=${1|back,both|}]
+</string>
 	<key>name</key>
 	<string>PROPerty [dir =both]</string>
 	<key>scope</key>
