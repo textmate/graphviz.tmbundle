@@ -3,7 +3,8 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{rank=${1:same|min|max}; $2; $3}; /* max is bottom */
+	<string>{rank=${1|same,min,max|}; $2; $3}; /* max is bottom */
+
 </string>
 	<key>name</key>
 	<string>{rank=same|min|max; x; y}</string>
