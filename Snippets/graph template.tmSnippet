@@ -5,15 +5,13 @@
 	<key>content</key>
 	<string>digraph G {
 	splines="FALSE";
-  /*	entities */
-  ${1:varA}  [label="${2:$1}", shape=box${3:, URL="${4:http://en.wikipedia.org/wiki/John de Fries}"}]
+  /* Entities */
+  ${1:varA}  [label="${2:$1}", shape="${3|square|rectangle,circle,ellipse,triangle,plaintext,point,diamond,pentagon,hexagon,septagon,octagon,egg,trapezium,parallelogram,house,doublecircle,doubleoctagon,tripleoctagon,invtriangle,invtrapezium,invhouse,Mdiamond,Msquare,Mcircle,none,note,tab,folder,box3d|}"${4:, URL="${5:http://en.wikipedia.org/wiki/John de Fries}"}]
   var$0
-
- /*	relationships */
-	${5:F1} -&gt; $1 ${6:[label="${7:.63}"]}
- /* ranks */
-  { rank=${8:max}; $1;}; /* max is bottom */
-  { rank=${9:min}; $5}; /* max is bottom */
+  /* Relationships */
+  ${6:F1} -&gt; $1 ${7:[label="${8:.63}"]}
+  /* Ranks */
+  { rank=${9|same,min,max|}; $1;}; /* max is bottom */
 }
 </string>
 	<key>name</key>
