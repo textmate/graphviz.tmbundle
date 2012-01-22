@@ -3,16 +3,14 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{rank=${1|same,min,max,nb:max is bottom|}; ${2:item1} ${3:item2}};
-
-</string>
+	<string>${1:From} -&gt; {${2:item1} ${3:item2} $0}</string>
 	<key>name</key>
-	<string>{rank=same|min|max; x; y}</string>
+	<string>path a-&gt; {b c d}</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>
-	<string>rank</string>
+	<string>path</string>
 	<key>uuid</key>
-	<string>F1E71422-DE57-48AF-A95A-8C30632299C2</string>
+	<string>1D4DF823-1CE3-4011-87AB-04958905098B</string>
 </dict>
 </plist>
