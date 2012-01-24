@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>{rank=${1|same,min,max,nb:max is bottom|}; ${2:item1} ${3:item2}};
+	<string>{rank=${1|same,min,max,nb:max is bottom|}; ${2:space delimitted list}};
 
 </string>
 	<key>name</key>

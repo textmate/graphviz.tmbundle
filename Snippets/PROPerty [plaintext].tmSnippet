@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>"${1:Machine: a}" [ shape = plaintext ];</string>
 	<key>name</key>
-	<string>new variable [plaintext]</string>
+	<string>New variable [plaintext]</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>

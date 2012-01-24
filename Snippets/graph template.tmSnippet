@@ -16,7 +16,7 @@
 }
 </string>
 	<key>name</key>
-	<string>graph template</string>
+	<string>Graph template</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>
