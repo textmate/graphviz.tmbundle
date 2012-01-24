@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>${1:From} -&gt; ${2:too} [label="${3:.7}";]</string>
 	<key>name</key>
-	<string>path (from -&gt; to [label)</string>
+	<string>Path from -&gt; to [label)</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>

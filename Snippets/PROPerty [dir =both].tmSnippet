@@ -3,10 +3,9 @@
 <plist version="1.0">
 <dict>
 	<key>content</key>
-	<string>[dir=${1|back,both,forward,none|}]
-</string>
+	<string>[dir=${1|back,both,forward,none|}]</string>
 	<key>name</key>
-	<string>PROPerty [dir =both]</string>
+	<string>PROPerty [dir =both…]</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>

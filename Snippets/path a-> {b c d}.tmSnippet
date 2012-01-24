@@ -5,7 +5,7 @@
 	<key>content</key>
 	<string>${1:From} -&gt; {${2:item1} ${3:item2} $0}</string>
 	<key>name</key>
-	<string>path a-&gt; {b c d}</string>
+	<string>Path from-&gt; {to list}</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>tabTrigger</key>

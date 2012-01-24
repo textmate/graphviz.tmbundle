@@ -4,14 +4,15 @@
 <dict>
 	<key>content</key>
 	<string>digraph G {
-  splines="FALSE";
-  /* Entities */
-  ${1:varA}  [label="${2:$1}", shape="${3|square,rectangle,circle,ellipse,triangle,plaintext,point,diamond,pentagon,hexagon,septagon,octagon,egg,trapezium,parallelogram,house,doublecircle,doubleoctagon,tripleoctagon,invtriangle,invtrapezium,invhouse,Mdiamond,Msquare,Mcircle,none,note,tab,folder,box3d|}"${4:, URL="${5:http://en.wikipedia.org/wiki/John de Fries}"}]
+	splines="FALSE";
+	/* Entities */
+	${1:shortName}  [label="${2:$1}", shape="${3|square,rectangle,circle,ellipse,triangle,plaintext,point,diamond,pentagon,hexagon,septagon,octagon,egg,trapezium,parallelogram,house,doublecircle,doubleoctagon,tripleoctagon,invtriangle,invtrapezium,invhouse,Mdiamond,Msquare,Mcircle,none,note,tab,folder,box3d|}"${4:, URL="${5:http://en.wikipedia.org/wiki/John de Fries}"}]
   var$0
-  /* Relationships */
-  ${6:F1} -&gt; $1 ${7:[label="${8:.63}"]}
-  /* Ranks */
-  { rank=${9|same,min,max|}; $1;}; /* max is bottom */
+
+	/* Relationships */
+	${6:F1} &gt; $1${7:[label="${8:.63}"]}
+	/* Ranks */
+	{ rank=${9|same,min,max,# max is bottom|}; $1;};
 }
 </string>
 	<key>name</key>

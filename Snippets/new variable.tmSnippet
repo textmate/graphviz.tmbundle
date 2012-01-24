@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>content</key>
+	<string>${1:shortName}  [label="${2:$1}", shape="${3|square,rectangle,circle,ellipse,triangle,plaintext,point,diamond,pentagon,hexagon,septagon,octagon,egg,trapezium,parallelogram,house,doublecircle,doubleoctagon,tripleoctagon,invtriangle,invtrapezium,invhouse,Mdiamond,Msquare,Mcircle,none,note,tab,folder,box3d|}"${4:, URL="${5:http://en.wikipedia.org/wiki/John de Fries}"}]
+var$0
+</string>
+	<key>name</key>
+	<string>new variable</string>
+	<key>scope</key>
+	<string>source.dot</string>
+	<key>tabTrigger</key>
+	<string>var</string>
+	<key>uuid</key>
+	<string>CA31A932-3D52-4AC8-B132-005BE95E680F</string>
+</dict>
+</plist>
