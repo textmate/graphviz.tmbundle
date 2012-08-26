@@ -21,7 +21,7 @@ ERR="${TMPDIR:-/tmp}/dot_errors"
 
 # Compile.
 if "${TM_DOT:-dot}" -Tpdf -o "$DST" /dev/stdin &amp;&gt;"$ERR"; then
-  echo "&lt;meta http-equiv='refresh' content='0; tm-file://$DST'&gt;"
+  echo "&lt;meta http-equiv='refresh' content='0; file://$DST'&gt;"
 else
   pre &lt;"$ERR"
 fi
