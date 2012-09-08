@@ -14,15 +14,23 @@ system($input)
 	<string>document</string>
 	<key>input</key>
 	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>@r</string>
 	<key>name</key>
-	<string>Open in default app</string>
-	<key>output</key>
+	<string>Open in Default App</string>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
 	<string>discard</string>
 	<key>scope</key>
 	<string>source.dot</string>
 	<key>uuid</key>
 	<string>759C50D4-E121-4147-9506-760096D4A92B</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>

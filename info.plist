@@ -8,6 +8,30 @@
 	<string>Torsten Becker</string>
 	<key>description</key>
 	<string>Graph visualization software, &lt;a href="http://www.graphviz.org/"&gt;more info&lt;/a&gt;.</string>
+	<key>mainMenu</key>
+	<dict>
+		<key>items</key>
+		<array>
+			<string>726F7253-079F-49E1-A9DF-739BBFFB321D</string>
+			<string>------------------------------------</string>
+			<string>759C50D4-E121-4147-9506-760096D4A92B</string>
+			<string>559EB4E6-017D-4AC3-9B44-C4657906E7A4</string>
+			<string>------------------------------------</string>
+			<string>AD2AB606-D634-4DFD-9BDA-A53CD235E1C4</string>
+			<string>F6F05C35-A450-4611-AE4F-E03E40E990EB</string>
+			<string>B7D66242-840C-473F-8546-33D6947AEFA7</string>
+			<string>C903C77B-C726-47E1-8FB2-9F90DFE6B763</string>
+			<string>F1E71422-DE57-48AF-A95A-8C30632299C2</string>
+			<string>612DF1E1-034E-4925-8E78-3EE2E2EDDA90</string>
+			<string>CC54EBCC-8BE6-4105-931B-999242396406</string>
+			<string>5A1C3792-81BA-413D-AB43-9DED29F22E18</string>
+			<string>351180F5-0F3D-4486-A04E-0788FD7C4803</string>
+			<string>------------------------------------</string>
+			<string>D8486A54-3F2A-490B-BF93-E6881BFA5DA9</string>
+		</array>
+		<key>submenus</key>
+		<dict/>
+	</dict>
 	<key>name</key>
 	<string>Graphviz</string>
 	<key>ordering</key>
