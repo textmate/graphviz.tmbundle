@@ -58,6 +58,8 @@ html_footer
 	</array>
 	<key>scope</key>
 	<string>source.dot</string>
+	<key>semanticClass</key>
+	<string>process.run.script.dot</string>
 	<key>uuid</key>
 	<string>726F7253-079F-49E1-A9DF-739BBFFB321D</string>
 	<key>version</key>

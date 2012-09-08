@@ -28,6 +28,8 @@ system($input)
 	<string>discard</string>
 	<key>scope</key>
 	<string>source.dot</string>
+	<key>semanticClass</key>
+	<string>process.external.run.dot</string>
 	<key>uuid</key>
 	<string>759C50D4-E121-4147-9506-760096D4A92B</string>
 	<key>version</key>

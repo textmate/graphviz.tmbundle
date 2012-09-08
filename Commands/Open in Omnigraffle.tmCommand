@@ -18,15 +18,25 @@ system($input)
 	<string>document</string>
 	<key>input</key>
 	<string>selection</string>
+	<key>inputFormat</key>
+	<string>text</string>
 	<key>keyEquivalent</key>
 	<string>@r</string>
 	<key>name</key>
 	<string>Open in Omnigraffle</string>
-	<key>output</key>
+	<key>outputCaret</key>
+	<string>afterOutput</string>
+	<key>outputFormat</key>
+	<string>text</string>
+	<key>outputLocation</key>
 	<string>discard</string>
 	<key>scope</key>
 	<string>source.dot</string>
+	<key>semanticClass</key>
+	<string>process.external.run.dot</string>
 	<key>uuid</key>
 	<string>559EB4E6-017D-4AC3-9B44-C4657906E7A4</string>
+	<key>version</key>
+	<integer>2</integer>
 </dict>
 </plist>
