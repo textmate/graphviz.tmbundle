@@ -10,7 +10,7 @@
   var$0
 
 	/* Relationships */
-	${6:F1} &gt; $1${7:[label="${8:.63}"]}
+	${6:F1} -&gt; $1${7:[label="${8:.63}"]}
 	/* Ranks */
 	{ rank=${9|same,min,max,# max is bottom|}; $1;};
 }
